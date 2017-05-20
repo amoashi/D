@@ -708,9 +708,9 @@ def langkb() :
 def ln(l,s,arg = None) :
     if s == 'started' :
         if l == 'en' :
-            return '💫 *Welcome to "Magic Anti Spam Bot" :)*\n⚜️ _Bot Created  in _ [MagicTeam](https://telegram.me/magicnews)_ with ❤️ by @jan123\nChoose One:_'
+            return '💫 *Welcome to "Magic Anti Spam Bot" :)*\n⚜️ _Bot Created  in _ [Ashkan](https://telegram.me/ashkan_pj)_ with ❤️ \nChoose One:_'
         else :
-            return '💫 به ربات "آنتی اسپم مجیک " خوش امدید :)\n⚜️ ساخته شده در  [MagicTeam](https://telegram.me/magicnews) با ❤️ توسط @jan123\nیکی را انتخاب کنید: '
+            return '💫 به ربات "آنتی اسپم مجیک " خوش امدید :)\n⚜️ ساخته شده در  [ashkan](https://telegram.me/ashkan_pj)  ❤️ توسط \nیکی را انتخاب کنید: '
     if s == 'newsubset' :
         if l == 'en' :
             return '🚀 User \n'+inf(arg['user'])+'\nJoined to robot as your subset.'
